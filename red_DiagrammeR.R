@@ -9,7 +9,7 @@ digraph boxes_and_circles {
 # Nodos Paquetes con dependencias
   node [shape = box,
         fontname = Helvetica,
-        color = grey,
+        color = green,
         shape = egg,
         fontsize = 12
         width = 1.2]
