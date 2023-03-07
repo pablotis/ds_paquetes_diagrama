@@ -21,16 +21,10 @@ digraph boxes_and_circles {
         color = grey,
         shape = circle,
         width = 0.7]
-  dstools; makeup; homodatum; geodata; parmesan; dsapptools; dsdataprep; paletero;
-  hgchmagic; dsvizopts; dsvizprep; shinypanels; shi18ny; lfltmagic;
+  dstools; makeup; homodatum; geodata; dsdataprep; paletero;
+  hgchmagic; dsvizopts; dsvizprep; lfltmagic;
   dsmodules; dspins; shinyinover
 
-# Nodo App
-  node [shape = circle, 
-        fixedsize = true, 
-        color = orange, 
-        width = 0.9]
-  app_R;
 
   # several 'edge' statements
 makeup->dstools
@@ -57,10 +51,6 @@ dsmodules->dspins
 dsmodules->shinyinover
 dspins->homodatum
 
-app_R->parmesan
-app_R->dsapptools
-app_R->shinypanels
-app_R->shinyinover
 }
 ")
 
